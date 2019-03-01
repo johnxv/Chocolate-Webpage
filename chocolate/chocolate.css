@@ -1,0 +1,144 @@
+/* chocolate.css */
+/*
+fonts to select from
+font-family: 'Fredoka One', cursive;
+font-family: 'Alice', serif;
+ */
+
+body
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.background
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.background img
+{
+    width: 100vw;
+    height: auto;
+}
+
+.authorBox
+{
+    z-index: 1;
+    border-radius: 100px;
+
+    transition: transform .33s;
+
+    box-shadow: 0 10px 40px darkslategray;
+    background-color: chocolate;
+
+    height: 500px;
+    width: 80%;
+
+    position: fixed;
+    left: 10%;
+    top: -400px;
+}
+
+
+.authorBox:hover
+{
+    transform: translateY(125px);
+    box-shadow: 0 10px 40px darkslategray;
+}
+
+.authorTxt
+{
+    transition: transform 2s;
+    margin-top: 290px;
+    text-align: center;
+}
+
+h1
+{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 700;
+    font-size: 400%;
+}
+
+h2
+{
+    font-weight: 100;
+    font-family: 'Fredoka One', cursive;
+}
+
+.article
+{
+    z-index: 0;
+    background-color: papayawhip;
+
+    border-radius: 20px;
+    box-shadow: 0 0 40px darkslategray;
+
+    margin-top: 150px;
+    margin-bottom: 50px;
+    padding: 3%;
+
+    font-size: 125%;
+    font-family: 'Alice', serif;
+    text-align: justify;
+
+    column-count: 2;
+
+    gap: 50px;
+}
+
+figure
+{
+    float: left;
+}
+
+.zoom
+{
+    transition: transform 2s;
+    box-shadow: 0 0 40px darkslategray;
+}
+
+.zoom:hover
+{
+    transform: scale(1.25);
+    box-shadow: 0 0 40px darkslategray;
+
+}
+
+img
+{
+    border-radius: 15px;
+    width: 250px;
+    height: auto;
+}
+
+figcaption
+{
+    font-size: 80%;
+    font-style: italic;
+}
+
+.mtBox
+{
+    height: 100vh;
+    background-color: transparent;
+}
+
+.mtBox2
+{
+    vertical-align: center;
+    line-height: 25vh;
+    text-align: center;
+    height: 25vh;
+    background-color: transparent;
+}
+
+.mtBox2 img
+{
+    width: 5%;
+    height: auto;
+}
